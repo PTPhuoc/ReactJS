@@ -1,0 +1,82 @@
+.HyLap {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.Button-Nav-HL {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  position: relative;
+  text-align: start;
+  cursor: pointer;
+}
+
+.Nav-HL {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+  padding: 15px;
+  background-color: #505050;
+}
+
+.Title-Nav-HL{
+    color: white;
+    text-align: center;
+}
+
+.Content-Left-HL {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  max-width: 75%;
+  padding: 15px;
+  background-color: rgb(210, 210, 210);
+}
+
+.Select-Chapter-HL {
+  display: flex;
+  gap: 15px;
+}
+
+.Button-Select-HL{
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    width: 40px;
+    background-color: #505050;
+    color: white;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.Button-Select-HL:hover {
+    transform: translate(0, -10px);
+}
+
+.Line-HL{
+    display: block;
+    position:absolute;
+    right: 0;
+    height: 0;
+    top: 0;
+    width: 5px;
+    background-color: black;
+    transition: height 0.2s ease;
+}
+
+.Button-Nav-HL:hover span:nth-child(1){
+    height: 100%;
+}

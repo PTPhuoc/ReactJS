@@ -1,0 +1,60 @@
+.PC-Login {
+  width: 100%;
+  position: relative;
+}
+
+.Form-Sign-In {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(3px);
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.Input-Si {
+  outline: none;
+  padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0;
+  width: 200px;
+  transition: 0.5s;
+}
+
+.F-Si-Password {
+  position: relative;
+}
+
+.Button-Si {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Button-Si:hover {
+  background-color: black;
+  color: white;
+}
+
+.Input-Si:focus {
+  box-shadow: 0 0 5px 0.5px;
+}
+
+#Wrong{
+    border: 1px solid red;
+}

@@ -1,0 +1,26 @@
+.Footer{
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.Footer-Gmail, .Footer-FB{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    width: 200px;
+}
+
+#Icon-F{
+    font-size: 35px;
+}
+
+.Footer-FB{
+    text-decoration: none;
+    color: white;
+}

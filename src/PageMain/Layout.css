@@ -1,0 +1,59 @@
+.Layout{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 50px 10px 50px;
+}
+
+.Layout-Link{
+    text-decoration: none;
+    color: white;
+}
+
+.Layout-Name{
+    color: white;
+}
+
+.Last-Name{
+    color: gray;
+}
+
+.Link-Name-L{
+    text-decoration: none;
+    color: white;
+}
+
+.Layout-NavBar{
+    display: flex;
+    gap: 50px;
+}
+
+.Line-L{
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.Layout-Link:hover span:nth-child(1){
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#Layout-Icon{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    transition: all 0.25s;
+}
+
+#Layout-Icon:hover{
+    transform: translateY(-5px);
+}
